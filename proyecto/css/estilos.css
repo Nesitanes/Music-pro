@@ -1,0 +1,378 @@
+/* ==========================
+        ESTILOS GENERALES
+========================== */
+
+body{
+    background-color:#121212;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-bottom:90px; /* Espacio para el reproductor */
+}
+
+a{
+    text-decoration:none;
+}
+
+/* ==========================
+        SIDEBAR
+========================== */
+
+.sidebar{
+    background:#000;
+    min-height:100vh;
+    position:sticky;
+    top:0;
+}
+
+.logo{
+    color:#1DB954;
+    font-weight:bold;
+    margin-bottom:25px;
+}
+
+.nav-link{
+    color:#b3b3b3;
+    font-size:17px;
+    margin-bottom:10px;
+    padding:10px;
+    border-radius:8px;
+    transition:.3s;
+}
+
+.nav-link:hover{
+    background:#1DB954;
+    color:white;
+}
+
+.nav-link.active{
+    background:#1DB954;
+    color:white;
+}
+
+/* ==========================
+        CONTENIDO
+========================== */
+
+.contenido{
+    background:#181818;
+    min-height:100vh;
+}
+
+/* ==========================
+            HERO
+========================== */
+
+.hero{
+    background:linear-gradient(180deg,#1DB954,#121212);
+    border-radius:18px;
+    margin:25px;
+    padding:60px 20px;
+}
+
+.hero h1{
+    font-size:42px;
+    font-weight:bold;
+}
+
+.hero p{
+    color:#ececec;
+    font-size:18px;
+    margin-top:15px;
+}
+
+.hero .btn{
+    margin-top:20px;
+    padding:12px 30px;
+    font-weight:bold;
+}
+
+/* ==========================
+        TITULOS
+========================== */
+
+h3{
+    color:white;
+    font-weight:bold;
+}
+
+/* ==========================
+        TARJETAS
+========================== */
+
+.playlist-card{
+    background:#242424;
+    color:white;
+    border:none;
+    border-radius:15px;
+    overflow:hidden;
+    transition:.3s;
+    cursor:pointer;
+}
+
+.playlist-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0px 8px 18px rgba(0,0,0,.45);
+
+    background:#303030;
+
+}
+
+.playlist-card img{
+
+    height:220px;
+
+    object-fit:cover;
+
+}
+
+.card-title{
+
+    font-weight:bold;
+
+}
+
+.card-text{
+
+    color:#cfcfcf;
+
+}
+
+/* ==========================
+        TABLA
+========================== */
+
+.table{
+
+    border-radius:12px;
+
+    overflow:hidden;
+
+}
+
+.table th{
+
+    color:#1DB954;
+
+}
+
+/* ==========================
+        CANVAS
+========================== */
+
+canvas{
+
+    background:#202020;
+
+    width:100%;
+
+    border-radius:15px;
+
+    border:2px solid #1DB954;
+
+}
+
+/* ==========================
+        REPRODUCTOR
+========================== */
+
+.reproductor{
+
+    background:#000;
+
+    color:white;
+
+    padding:15px 25px;
+
+    border-top:2px solid #1DB954;
+
+        box-shadow:0 -5px 20px rgba(0,0,0,.5);
+
+}
+
+.reproductor .btn{
+
+    margin:0 5px;
+
+}
+
+/* ==========================
+        BOTONES
+========================== */
+
+.btn-success{
+
+    background:#1DB954;
+
+    border:none;
+
+}
+
+.btn-success:hover{
+
+    background:#18a449;
+
+}
+
+/* ==========================
+        RESPONSIVE
+========================== */
+
+@media (max-width:992px){
+
+    .sidebar{
+
+        min-height:auto;
+
+        position:relative;
+
+    }
+
+    .hero{
+
+        margin:15px;
+
+    }
+
+}
+
+@media (max-width:768px){
+
+    .hero h1{
+
+        font-size:30px;
+
+    }
+
+    .hero p{
+
+        font-size:16px;
+
+    }
+
+    .reproductor{
+
+        text-align:center;
+
+    }
+
+    .reproductor .text-end{
+
+        text-align:center !important;
+
+        margin-top:10px;
+
+    }
+
+}
+
+@media (max-width:576px){
+
+    .playlist-card img{
+
+        height:250px;
+
+    }
+
+    .logo{
+
+        text-align:center;
+
+    }
+
+    .nav-link{
+
+        text-align:center;
+
+    }
+
+}
+
+/*==============================
+        BARRA SUPERIOR
+===============================*/
+
+.barra-superior{
+
+    background:#181818;
+
+    position:sticky;
+
+    top:0;
+
+    z-index:100;
+
+    padding:15px;
+
+}
+
+.barra-superior input{
+
+    background:#2a2a2a;
+
+    border:none;
+
+    color:white;
+
+}
+
+.barra-superior input::placeholder{
+
+    color:#cccccc;
+
+}
+
+/*==============================
+        BOTON PLAY
+===============================*/
+
+.play{
+
+    position:absolute;
+
+    right:20px;
+
+    top:160px;
+
+    opacity:0;
+
+    transition:.4s;
+
+}
+
+.play button{
+
+    width:55px;
+
+    height:55px;
+
+    border-radius:50%;
+
+    font-size:24px;
+
+}
+
+.playlist-card{
+
+    position:relative;
+
+}
+
+.playlist-card:hover .play{
+
+    opacity:1;
+
+    transform:translateY(-10px);
+
+}
+
+/*==============================
+        ARTISTAS
+===============================*/
+
+.artistas img{
+
+    border-radius:50%;
+
+}

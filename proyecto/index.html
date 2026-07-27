@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SoundWave | Tu música favorita</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <div class="container-fluid">
+ <!-- Barra Superior -->
+
+<nav class="navbar navbar-expand-lg barra-superior px-4">
+
+    <div class="container-fluid">
+
+        <form class="d-flex w-50">
+
+            <input class="form-control me-2"
+                type="search"
+                placeholder="Buscar canciones o artistas">
+
+            <button class="btn btn-success">
+                Buscar
+            </button>
+
+        </form>
+
+        <div>
+
+            <button class="btn btn-outline-light">
+                Premium
+            </button>
+
+        </div>
+
+    </div>
+
+</nav>
+        <div class="row">
+
+            <!-- =========================
+                    SIDEBAR
+            ========================== -->
+
+            <aside class="col-lg-2 col-md-3 sidebar p-4">
+
+                <h2 class="logo">
+                    <i class="bi bi-music-note-beamed"></i>
+                    SoundWave
+                </h2>
+
+                <hr>
+
+                <nav class="nav flex-column">
+
+                    <a href="#" class="nav-link active">
+                        <i class="bi bi-house-fill"></i>
+                        Inicio
+                    </a>
+
+                    <a href="#" class="nav-link">
+                        <i class="bi bi-search"></i>
+                        Buscar
+                    </a>
+
+                    <a href="#" class="nav-link">
+                        <i class="bi bi-heart-fill"></i>
+                        Favoritos
+                    </a>
+
+                    <a href="#" class="nav-link">
+                        <i class="bi bi-collection-play-fill"></i>
+                        Biblioteca
+                    </a>
+
+                    <a href="#" class="nav-link">
+                        <i class="bi bi-gear-fill"></i>
+                        Configuración
+                    </a>
+
+                </nav>
+
+            </aside>
+
+            <!-- =========================
+                    CONTENIDO
+            ========================== -->
+
+            <main class="col-lg-10 col-md-9 contenido">
+
+                <!-- HERO -->
+
+                <section class="hero text-center py-5">
+
+                    <h1>Bienvenido a SoundWave</h1>
+
+                    <p>
+                        Descubre nuevas canciones, álbumes y playlists para
+                        acompañarte todos los días.
+                    </p>
+
+                    <button class="btn btn-success">
+                        Explorar música
+                    </button>
+
+                </section>
+
+                <!-- PLAYLISTS -->
+
+                <section class="container mb-5">
+
+                    <h3 class="mb-4">
+                        Álbumes Destacados
+                    </h3>
+
+                    <div class="row g-4">
+
+                        <div class="col-lg-3 col-md-6 col-12">
+                            <div class="card playlist-card">
+                                <div class="play">
+
+                                <button class="btn btn-success">
+
+                                 <i class="bi bi-play-fill"></i>
+
+                                 </button>
+
+                                </div>
+                                <img src="img/playlis1.png" class="card-img-top" alt="Rock">
+                                <div class="card-body">
+                                    <h5 class="card-title">OMAKASE</h5>
+                                    <p class="card-text">
+                                        Alvaro Diaz
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-12">
+                            <div class="card playlist-card">
+                                <div class="play">
+
+        <button class="btn btn-success">
+
+            <i class="bi bi-play-fill"></i>
+
+        </button>
+
+    </div>
+                                <img src="img/playlis2.png" class="card-img-top" alt="Pop">
+                                <div class="card-body">
+                                    <h5 class="card-title">TODOS LOS DÍAS TODO EL DÍA</h5>
+                                    <p class="card-text">
+                                        LATIN MAFIA
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-12">
+                            <div class="card playlist-card">
+                                <div class="play">
+
+        <button class="btn btn-success">
+
+            <i class="bi bi-play-fill"></i>
+
+        </button>
+
+    </div>
+                                <img src="img/playlis3.png" class="card-img-top" alt="LoFi">
+                                <div class="card-body">
+                                    <h5 class="card-title">Player Hater</h5>
+                                    <p class="card-text">
+                                        Rels B
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-12">
+                            <div class="card playlist-card">
+                                <div class="play">
+
+        <button class="btn btn-success">
+
+            <i class="bi bi-play-fill"></i>
+
+        </button>
+
+    </div>
+                                <img src="img/playlis4.png" class="card-img-top" alt="Jazz">
+                                <div class="card-body">
+                                    <h5 class="card-title">DeBí TiRAR MáS FOToS</h5>
+                                    <p class="card-text">
+                                        Bad Bunny
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-12">
+                            <div class="card playlist-card">
+                                <div class="play">
+
+        <button class="btn btn-success">
+
+            <i class="bi bi-play-fill"></i>
+
+        </button>
+
+    </div>
+                                <img src="img/playlis5.png" class="card-img-top" alt="Electrónica">
+                                <div class="card-body">
+                                    <h5 class="card-title">Botánica</h5>
+                                    <p class="card-text">
+                                        Nsqk
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-12">
+                            <div class="card playlist-card">
+                                <div class="play">
+
+        <button class="btn btn-success">
+
+            <i class="bi bi-play-fill"></i>
+
+        </button>
+
+    </div>
+                                <img src="img/playlis6.png" class="card-img-top" alt="Hip Hop">
+                                <div class="card-body">
+                                    <h5 class="card-title">El Madrileño</h5>
+                                    <p class="card-text">
+                                        C. Tangana
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </section>
+
+                <section class="container mt-5">
+
+    <h3 class="mb-4">
+
+        Artistas Populares
+
+    </h3>
+
+    <div class="row g-4 artistas">
+
+        <div class="col-lg-2 col-md-4 col-6">
+
+            <div class="card playlist-card">
+
+                <img src="img/bad.jpg">
+
+                <div class="card-body text-center">
+
+                    <h6>Bad Bunny</h6>
+
+                    <small>Pop</small>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-2 col-md-4 col-6">
+
+            <div class="card playlist-card">
+
+                <img src="img/alvaro.jpg">
+
+                <div class="card-body text-center">
+
+                    <h6>Alvaro Diaz</h6>
+
+                    <small>Pop Alternativo</small>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-2 col-md-4 col-6">
+
+            <div class="card playlist-card">
+
+                <img src="img/karol.jpg">
+
+                <div class="card-body text-center">
+
+                    <h6>Karol G</h6>
+
+                    <small>Reggaeton</small>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-2 col-md-4 col-6">
+
+            <div class="card playlist-card">
+
+                <img src="img/rels.jpg">
+
+                <div class="card-body text-center">
+
+                    <h6>Rels B</h6>
+
+                    <small>Latin R&B</small>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-2 col-md-4 col-6">
+
+            <div class="card playlist-card">
+
+                <img src="img/cantante1.jpg">
+
+                <div class="card-body text-center">
+
+                    <h6>Nsqk</h6>
+
+                    <small>Urbano</small>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-2 col-md-4 col-6">
+
+            <div class="card playlist-card">
+
+                <img src="img/milo.jpg">
+
+                <div class="card-body text-center">
+
+                    <h6>Milo J</h6>
+
+                    <small>Latin Trap</small>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+                <!-- TABLA -->
+
+                <section class="container mb-5">
+
+                    <h3 class="mb-3">
+                        Top Canciones
+                    </h3>
+
+                    <div class="table-responsive">
+
+                        <table class="table table-dark table-hover align-middle">
+
+                            <thead>
+
+                                <tr>
+                                    <th>#</th>
+                                    <th>Canción</th>
+                                    <th>Artista</th>
+                                    <th>Duración</th>
+                                </tr>
+
+                            </thead>
+
+                            <tbody>
+
+                                <tr>
+                                    <td>1</td>
+                                    <td>PARANORMAL</td>
+                                    <td>Tainy</td>
+                                    <td>3:17</td>
+                                </tr>
+
+                                <tr>
+                                    <td>2</td>
+                                    <td>A Mí</td>
+                                    <td>Rels B</B></td>
+                                    <td>3:29</td>
+                                </tr>
+
+                                <tr>
+                                    <td>3</td>
+                                    <td>Golden Sky</td>
+                                    <td>Emily Rose</td>
+                                    <td>4:06</td>
+                                </tr>
+
+                                <tr>
+                                    <td>4</td>
+                                    <td>444</td>
+                                    <td>Yan Block</td>
+                                    <td>2:55</td>
+                                </tr>
+
+                            </tbody>
+
+                        </table>
+
+                    </div>
+
+                </section>
+
+                <!-- CANVAS -->
+
+                <section class="container mb-5">
+
+                    <h3 class="mb-3">
+                        Visualizador de Audio
+                    </h3>
+
+                    <canvas id="visualizador" width="900" height="180"></canvas>
+
+                </section>
+
+            </main>
+
+        </div>
+
+    </div>
+
+    <!-- REPRODUCTOR -->
+     <footer class="text-center py-4">
+
+    <hr>
+
+    <p>
+        © 2026 SoundWave
+
+        | Proyecto desarrollado con HTML, CSS y Bootstrap.
+    </p>
+
+</footer>
+
+    <footer class="reproductor fixed-bottom">
+
+        <div class="container-fluid">
+
+            <div class="row align-items-center">
+
+                <div class="col-md-4">
+
+                    <strong>MONACO</strong>
+
+                    <br>
+
+                    <small>Bad Bunny</small>
+
+                </div>
+
+                <div class="col-md-4 text-center">
+
+                    <button class="btn btn-outline-light btn-sm">
+                        <i class="bi bi-skip-backward-fill"></i>
+                    </button>
+
+                    <button class="btn btn-success btn-sm">
+                        <i class="bi bi-play-fill"></i>
+                    </button>
+
+                    <button class="btn btn-outline-light btn-sm">
+                        <i class="bi bi-skip-forward-fill"></i>
+                    </button>
+
+                </div>
+
+                <div class="col-md-4 text-end">
+
+                    <i class="bi bi-volume-up-fill"></i>
+
+                    Volumen
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+
+const canvas = document.getElementById("visualizador");
+const ctx = canvas.getContext("2d");
+
+ctx.fillStyle = "#1DB954";
+
+let x = 20;
+
+const alturas = [
+60,120,90,150,70,100,140,80,
+130,60,110,90,150,120,70,140,
+90,100,130,80
+];
+
+for(let i=0;i<alturas.length;i++){
+
+    ctx.fillRect(x,160-alturas[i],15,alturas[i]);
+
+    x+=25;
+
+}
+
+</script>
+</body>
+
+</html>
