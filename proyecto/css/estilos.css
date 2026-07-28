@@ -1,6 +1,4 @@
-/* ==========================
-        ESTILOS GENERALES
-========================== */
+/* general */
 
 body{
     background-color:#121212;
@@ -13,9 +11,7 @@ a{
     text-decoration:none;
 }
 
-/* ==========================
-        SIDEBAR
-========================== */
+/* sidebar */
 
 .sidebar{
     background:#000;
@@ -49,18 +45,14 @@ a{
     color:white;
 }
 
-/* ==========================
-        CONTENIDO
-========================== */
+/* contenido */
 
 .contenido{
     background:#181818;
     min-height:100vh;
 }
 
-/* ==========================
-            HERO
-========================== */
+/* hero */
 
 .hero{
     background:linear-gradient(180deg,#1DB954,#121212);
@@ -86,18 +78,14 @@ a{
     font-weight:bold;
 }
 
-/* ==========================
-        TITULOS
-========================== */
+/* titulos */
 
 h3{
     color:white;
     font-weight:bold;
 }
 
-/* ==========================
-        TARJETAS
-========================== */
+/* tarjetas */
 
 .playlist-card{
     background:#242424;
@@ -139,9 +127,7 @@ h3{
 
 }
 
-/* ==========================
-        TABLA
-========================== */
+/* tabla */
 
 .table{
 
@@ -157,9 +143,7 @@ h3{
 
 }
 
-/* ==========================
-        CANVAS
-========================== */
+/* canvas */
 
 canvas{
 
@@ -173,9 +157,7 @@ canvas{
 
 }
 
-/* ==========================
-        REPRODUCTOR
-========================== */
+/* reproductor */
 
 .reproductor{
 
@@ -197,9 +179,7 @@ canvas{
 
 }
 
-/* ==========================
-        BOTONES
-========================== */
+/* botones */
 
 .btn-success{
 
@@ -215,9 +195,7 @@ canvas{
 
 }
 
-/* ==========================
-        RESPONSIVE
-========================== */
+/* responsive */
 
 @media (max-width:992px){
 
@@ -289,9 +267,7 @@ canvas{
 
 }
 
-/*==============================
-        BARRA SUPERIOR
-===============================*/
+/* barra superior */
 
 .barra-superior{
 
@@ -323,9 +299,7 @@ canvas{
 
 }
 
-/*==============================
-        BOTON PLAY
-===============================*/
+/* boton play */
 
 .play{
 
@@ -367,9 +341,7 @@ canvas{
 
 }
 
-/*==============================
-        ARTISTAS
-===============================*/
+/* artistas */
 
 .artistas img{
 
